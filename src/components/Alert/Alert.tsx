@@ -26,7 +26,7 @@ const Alert = ({
         </div>
         <span>{xIcon}</span>
       </div>
-      {description && <p>{description}</p>}
+      {description && <div>{description}</div>}
       {children && <div className="text-center">{children}</div>}
     </div>
   );
